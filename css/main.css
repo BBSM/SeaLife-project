@@ -1,0 +1,63 @@
+#logoSealife{
+    font-size: 40px;
+    color: white;
+    padding-left: 80px;
+    padding-right: 76px;
+}
+
+/* Define size and margin of the logo into the navbar and sidebar */
+.narwhal{
+    width : 45px;
+    height: 45px;
+    margin-top :7px;
+}
+
+/* Three icons into the home page */
+.iconhome{
+    width : 90px;
+    height : 120px;
+    display: block;
+    margin: auto;
+    padding-top : 20px;
+    padding-bottom: 20px;
+}
+
+/* Icons into the footer (facebook, twitter, youtube) */
+.iconfooter{
+    width : 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* Align text to center and icon into the footer when the width is inferior to 600px  */
+@media screen and (max-width: 600px) {
+  footer ul li {
+    text-align: center;
+  }
+}
+
+/* Put a margin top and margin bottom on the footer icon when the width is inferior to 600px  */
+@media screen and (max-width: 600px) {
+  .iconfooter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Change the color of the bullet for the slider of the page "Cleanup Project" */
+.slider .indicators .indicator-item.active {
+  background-color: #00b0ff;
+}  
+
+/* Change the color of the button "discover the entire project" of the page "Cleanup Project" */
+.btn{
+    background-color: #00b0ff;
+}
+
+/* Change the color of the button "discover the entire project" of the page "Cleanup Project" */
+.btn:hover{
+    background-color: #00b0ff;
+}
+
+
+

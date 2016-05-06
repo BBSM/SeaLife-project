@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>SeaLife</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- My CSS -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <!--Media Queries-->
+        <link rel="stylesheet" media="screen" href="screen.css" type="text/css" />
+
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class="navbar-fixed">
+                <nav class="light-blue darken-2 navbar-fixed">
+                    <div class="nav-wrapper">
+                        <a href="index.html" class="brand-logo right img-responsive"><img src="img/narwhal_blanc.png" class="narwhal"></a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="padding-left: 20px;">menu</i></a>
+                        <ul class="left hide-on-med-and-down">
+                            <li class="thin"><span id="logoSealife">Sealife</span></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="takeaction.html">Take Action</a></li>
+                            <li><a href="cleanup.html">CleanUp Project</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <ul class="side-nav white" id="mobile-demo">
+                            <li><a href="index.html" class="logo"><img src="img/narwhal_bleu.png" class="narwhal"></a></li>
+                            <li><a href="index.html" class="light-blue-text text-darken-2">Home</a></li>
+                            <li><a href="takeaction.html" class="light-blue-text text-darken-2">Take Action</a></li>
+                            <li><a href="cleanup.html" class="light-blue-text text-darken-2">CleanUp Project</a></li>
+                            <li><a href="contact.html" class="light-blue-text text-darken-2">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>   
+
+        <section class="parallax-container">
+            <div class="parallax">
+                <img src="img/cleanBeach.jpg" alt="cleanBeach"  id="cleanBeach"/>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h3 class="center-align thin cyan-text accent-3" style="margin-bottom: 40px; margin-top: 40px;">DONATION</h3>
+                <p class="center-align">You would like to donate ?</p>
+                <p class="center-align">It's very simple. You just have to send us a check with the amount of your choice.</p>
+                <ul class="center-align">
+                    <li><b><u>Order</u></b> : SeaLife Foundation</li>
+                    <li><b><u>Adress</u></b> : 28 rue de la mer, 75000 PARIS</li>
+                    <li><b><u>Phone</u></b> : 06 54 32 15 09</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <h3 class="center-align thin white-text" style="margin-bottom: 40px; margin-top: 40px; background-color: #00b0ff; padding-top: 20px; padding-bottom: 20px;">QUESTIONS OR INFORMATIONS</h3>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12 m6 l6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">First Name</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <i class="material-icons prefix">account_box</i>
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <i class="material-icons prefix">mail</i>
+                            <input id="icon_prefix" type="email" class="validate">
+                            <label for="icon_prefix" data-error="wrong" data-success="right">Email</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <i class="material-icons prefix">phone</i>
+                            <input id="icon_telephone" type="tel" class="validate">
+                            <label for="icon_telephone">Phone</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">mode_edit</i>
+                            <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Message</label>
+                        </div>
+                        <div class="col s12 center-align" style="margin-top: 40px;">
+                            <button class="btn waves-effect waves-light"  onclick="messageSent()" type="submit" name="action" id="messageSentForm">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <footer class="page-footer  grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m3 l3">
+                        <ul>
+                            <li><a class="hoverable grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                            <li><a class="hoverable grey-text text-lighten-3" href="#!">Terms and Conditions</a></li>
+                            <li><a class="hoverable grey-text text-lighten-3" href="#!">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col s12 m6 l6 center-align">
+                        <a href="#!"><img src="img/facebook.png" alt="facebook_icon" class="hoverable iconfooter"></a>
+                        <a href="#!"><img src="img/twitter.png" alt="facebook_icon" class="hoverable iconfooter"></a>
+                        <a href="#!"><img src="img/youtube.png" alt="facebook_icon" class=" hoverable iconfooter"></a>
+                    </div>
+                    <div class="col s12 m3 l3 right-align">
+                        <ul>
+                            <li><a class="hoverable grey-text text-lighten-3" href="contact.html">Donation</a></li>
+                            <li><a class="hoverable grey-text text-lighten-3" href="cleanup.html">Ocean CleanUp</a></li>
+                            <li><a class="hoverable grey-text text-lighten-3" href="takeaction.html">Take Action</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright center-align">
+                <div class="container white-text">
+                    © 2016 MAREZ Damien
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JQUERY-->
+        <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+
+        <!-- JQUERY MATERIALIZE-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+        <!-- JS MATERIALIZE-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+        <!-- MY JS-->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
+
+
